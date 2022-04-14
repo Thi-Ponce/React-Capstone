@@ -1,19 +1,16 @@
 import React from 'react';
 import '@testing-library/jest-dom';
 import { Provider } from 'react-redux';
-import { BrowserRouter as Router } from 'react-router-dom';
-import store from '../src/redux/configureStore';
-import Header from '../src/components/Header';
+import store from '../redux/configureStore';
+import Home from '../components/Home';
 
 const TestRenderer = require('react-test-renderer');
 
-it('Renders Header correctly', () => {
+it('Renders homepage correctly', () => {
   const tree = TestRenderer
     .create(
       <Provider store={store}>
-        <Router>
-          <Header />
-        </Router>
+        <Home />
       </Provider>,
     )
     .toJSON();
