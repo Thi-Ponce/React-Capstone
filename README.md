@@ -43,7 +43,7 @@ If you like this project please let me know!
 
 ## See live
 
-[Live project to be added soon](https://github.com/Thi-Ponce/react-mathmagician)
+Check a live version [here](https://hidden-earth-08158.herokuapp.com/)
 
 ## 📝 License
 
