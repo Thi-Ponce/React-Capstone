@@ -5,16 +5,18 @@ import { AiTwotoneSetting } from 'react-icons/ai';
 
 const Header = () => (
   <header>
-    <nav>
-      <ul>
-        <li>
+    <nav className="header-nav">
+      <ul className="nav-ul">
+        <li className="nav-li arrow">
           <Link to="/"><IoIosArrowBack /></Link>
         </li>
-        <li>
-          <h3>Studio Ghibli</h3>
+        <li className="nav-li">
+          <h3 className="nav-title">Studio Ghibli</h3>
         </li>
-        <li><BsMicFill /></li>
-        <li><AiTwotoneSetting /></li>
+        <li className="nav-li icons">
+          <BsMicFill />
+          <AiTwotoneSetting />
+        </li>
       </ul>
     </nav>
   </header>

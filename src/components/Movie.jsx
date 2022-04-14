@@ -8,19 +8,15 @@ const Movie = (props) => {
     filmKey,
     title,
     release,
-    image,
   } = props;
 
-  const bgStyling = {
-    backgroundImage: `url(${image})`,
-    backgroundSize: 'contain',
-    backgroundRepeat: 'no-repeat',
-  };
   return (
-    <div className="movie-card" key={filmKey} style={bgStyling}>
-      <Link to={`/MovieDetails/${filmKey}`} key={filmKey}>
-        <BsArrowRightCircle />
-      </Link>
+    <div className="movie-card" key={filmKey}>
+      <div className="arrow-right">
+        <Link to={`/MovieDetails/${filmKey}`} key={filmKey}>
+          <BsArrowRightCircle />
+        </Link>
+      </div>
       <div className="movie-description">
         <h3>{title}</h3>
         <p>{release}</p>
@@ -33,7 +29,6 @@ Movie.propTypes = {
   filmKey: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   release: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
 };
 
 export default Movie;

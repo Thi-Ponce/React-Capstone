@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import Movie from './Movie';
+import './Home.css';
 
 function Home() {
   const [searchText, setSearchText] = useState('');
