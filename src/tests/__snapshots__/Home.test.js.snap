@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders homepage correctly 1`] = `
+<section
+  className="home"
+>
+  <div
+    className="input-container"
+  >
+    <input
+      className="search-input"
+      onChange={[Function]}
+      placeholder="Search here"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="cards-container"
+  />
+</section>
+`;
