@@ -2,7 +2,7 @@
 
 # React Capstone: Studio ghibli Library
 
-> This is a simple project made following instructions while a student in Microverse. You can search for Studio Ghibli movies and click on their cards for a more detailed movie description and information.
+> This is a simple project made following instructions while a student in Microverse. It's a mobile app where you can search for Studio Ghibli movies and click on their cards for a more detailed movie description and information.
 
 
 ## Video
