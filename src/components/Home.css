@@ -51,6 +51,10 @@ a {
   color: #fff;
 }
 
+.search-input:hover {
+  cursor: pointer;
+}
+
 .cards-container {
   display: flex;
   flex-wrap: wrap;
@@ -59,12 +63,13 @@ a {
 }
 
 .movie-card {
-  width: 50%;
+  width: 209px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
   text-align: end;
+  padding: 0 5px 5px 0;
 }
 
 .movie-card:nth-child(4n+1) {
