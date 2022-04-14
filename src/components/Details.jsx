@@ -23,39 +23,39 @@ const MovieDetails = () => {
         <ul className="detail-ul">
           <li className="movie-info">
             <p>Title:</p>
-            <p>{currentMovie.title}</p>
+            <p className="data">{currentMovie.title}</p>
           </li>
           <li className="movie-info">
             <p>Japanese Title:</p>
-            <p>{currentMovie.originalTitle}</p>
+            <p className="data">{currentMovie.originalTitle}</p>
           </li>
           <li className="movie-info">
             <p>Romanised:</p>
-            <p>{currentMovie.romanisedTitle}</p>
+            <p className="data">{currentMovie.romanisedTitle}</p>
           </li>
           <li className="movie-info">
             <p>Release Year:</p>
-            <p>{currentMovie.release}</p>
+            <p className="data">{currentMovie.release}</p>
           </li>
           <li className="movie-info">
             <p>Run Time:</p>
-            <p>{currentMovie.runningTime}</p>
+            <p className="data">{currentMovie.runningTime}</p>
           </li>
           <li className="movie-info">
             <p>Rotten Tomatoes Score :</p>
-            <p>{currentMovie.rtScore}</p>
+            <p className="data">{currentMovie.rtScore}</p>
           </li>
           <li className="movie-info">
             <p>Director:</p>
-            <p>{currentMovie.director}</p>
+            <p className="data">{currentMovie.director}</p>
           </li>
           <li className="movie-info">
             <p>Producer:</p>
-            <p>{currentMovie.producer}</p>
+            <p className="data">{currentMovie.producer}</p>
           </li>
           <li className="movie-info">
             <p>Synpsis:</p>
-            <p>{currentMovie.description}</p>
+            <p className="data movie-descrip">{currentMovie.description}</p>
           </li>
         </ul>
       </div>

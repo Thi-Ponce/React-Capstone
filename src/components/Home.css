@@ -96,3 +96,38 @@ svg {
 p {
   background-color: inherit;
 }
+
+.details-image {
+  padding: 25px 25px 25px 17px;
+}
+
+.banner {
+  width: 395px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-info {
+  display: flex;
+  align-items: baseline;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.data {
+  text-align: justify;
+}
+
+.movie-descrip {
+  padding-left: 10px;
+}
+.movie-info:nth-child(even) {
+  background-color: #214588;
+}
+
+.movie-info:nth-child(odd) {
+  background-color: #132f63;
+}
